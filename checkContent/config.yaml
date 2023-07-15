@@ -1,0 +1,5 @@
+pass_list:
+  - .vuepress
+  - .idea
+  - .git
+each_work_count: 10

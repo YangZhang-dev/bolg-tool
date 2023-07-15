@@ -1,0 +1,13 @@
+oss:
+  endpoint:
+  access_key_id:
+  access_key_secret:
+  bucket_name:
+  path:
+chunk:
+  # KB, MB, GB
+  unit: MB
+  # 开启分片上传的文件大小
+  open_chunk_size: 70
+  # 分片数
+  chunk_size: 5
