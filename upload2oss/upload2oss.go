@@ -41,7 +41,6 @@ var (
 )
 
 func Init() {
-
 	viper.SetConfigName("config")
 	viper.SetConfigType("yaml")
 	dir, _ := os.Getwd()

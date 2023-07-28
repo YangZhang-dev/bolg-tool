@@ -1,0 +1,13 @@
+app:
+  name: "翻译软件"
+  font_size: 12
+api:
+  url: "https://v.api.aa1.cn/api/api-fanyi-yd/index.php?type=3"
+  query_key: "msg" # 查询参数名
+hot_key:
+  # https://pkg.go.dev/github.com/vcaesar/keycode#pkg-variables
+  key_code:
+    - 16
+    - 29
+  effect_span: 3000  # 热键有效期限 ms
+  request_span: 500  # 请求频繁 ms
